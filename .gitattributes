@@ -1,0 +1,60 @@
+# All Text Files
+* text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.htm text eol=lf
+*.xml text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.xaml text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+
+# Windows Files
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Binary Files
+*.ico -text -diff -merge
+*.png -text -diff -merge
+*.jpg -text -diff -merge
+*.jpeg -text -diff -merge
+*.gif -text -diff -merge
+*.webp -text -diff -merge
+*.exe -text -diff -merge
+*.zip -text -diff -merge
+*.rar -text -diff -merge
+*.7z -text -diff -merge
+*.tar -text -diff -merge
+*.gz -text -diff -merge
+*.bz2 -text -diff -merge
+*.xz -text -diff -merge
+
+# Font Files
+*.ttf -text -diff -merge
+*.otf -text -diff -merge
+*.woff -text -diff -merge
+*.woff2 -text -diff -merge
+
+# Media Files
+*.mp3 -text -diff -merge
+*.aac -text -diff -merge
+*.ogg -text -diff -merge
+*.wav -text -diff -merge
+*.m4a -text -diff -merge
+*.mp4 -text -diff -merge
+*.webm -text -diff -merge
+*.avi -text -diff -merge
+
+# Document Files
+*.pdf -text -diff -merge
+*.doc -text -diff -merge
+*.xls -text -diff -merge
+*.ppt -text -diff -merge
+*.docx -text -diff -merge
+*.xlsx -text -diff -merge
+*.pptx -text -diff -merge
